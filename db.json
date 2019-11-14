@@ -1,0 +1,34 @@
+{
+  "requests": [
+    {
+      "partners": [
+        {
+          "name": "ABC"
+        },
+        {
+          "name": "QWE"
+        }
+      ],
+      "hostgroups": [
+        {
+          "id": 1132,
+          "name": "primary group",
+          "hosts": [
+            {
+              "name": "gw01",
+              "ip": "10.10.0.1"
+            },
+            {
+              "name": "srv01",
+              "ip": "10.10.0.5"
+            }
+          ]
+        },
+        {
+          "id": 7261,
+          "name": "secondary group"
+        }
+      ]
+    }
+  ]
+}
